@@ -1,0 +1,92 @@
+---
+booktitle: Proceedings of the 29th Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2013'
+start: &1 2013-07-12
+end: 2013-07-14
+conference_number: '29'
+volume: R11
+published: 2026-10-04
+firstpublished: 2013-07-12
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2013
+month: 0
+cycles: false
+bibtex_editor: Nicholson, Ann and Smyth, Padhraic
+editor:
+- given: Ann
+  family: Nicholson
+- given: Padhraic
+  family: Smyth
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 29th Conference on Uncertainty in Artificial Intelligence
+    Held in Bellevue, WA, USA on 12-14 July 2013
+
+  Published as Reissue 11 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Ann Nicholson
+    Padhraic Smyth
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 12--14 Jul
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r11"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r11
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r11
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2013/
+  location: Bellevue, WA, USA
+  dates:
+  - *1
+  - 2013-07-13
+  - 2013-07-14
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2013_clean.bib
+# Site settings
+# Original source:  uai2013_clean.bib
