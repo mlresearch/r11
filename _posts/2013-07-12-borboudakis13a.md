@@ -1,13 +1,12 @@
 ---
-abstract: A significant theoretical advantage of search- and-score methods for learning
-  Bayesian Net- works is that they can accept informative prior beliefs for each possible
+abstract: A significant theoretical advantage of search-and-score methods for learning
+  Bayesian Networks is that they can accept informative prior beliefs for each possible
   network, thus complementing the data. In this paper, a method is presented for assigning
   priors based on beliefs on the presence or absence of certain paths in the true
-  network. Such be- liefs correspond to knowledge about the pos- sible causal and
+  network. Such beliefs correspond to knowledge about the possible causal and
   associative relations between pairs of variables. This type of knowledge naturally
-  arises from prior experimental and observational data, among others. In addi- tion,
-  a novel search-operator is proposed to take advantage of such prior knowledge. Ex-
-  periments show that, using path beliefs im- proves the learning of the skeleton,
+  arises from prior experimental and observational data, among others. In addition,
+  a novel search-operator is proposed to take advantage of such prior knowledge. Experiments show that, using path beliefs improves the learning of the skeleton,
   as well as the edge directions in the network.
 title: Scoring and Searching over Bayesian Networks with Causal and Associative Priors
 year: '2013'

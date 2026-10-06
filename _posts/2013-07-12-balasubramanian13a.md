@@ -1,18 +1,18 @@
 ---
-abstract: Joint sparsity regularization in multi-task learn- ing has attracted much
+abstract: Joint sparsity regularization in multi-task learning has attracted much
   attention in recent years. The traditional convex formulation employs the group
   Lasso relaxation to achieve joint sparsity across tasks. Although this approach
-  leads to a simple convex formulation, it suffers from sev- eral issues due to the
-  looseness of the relax- ation. To remedy this problem, we view jointly sparse multi-task
-  learning as a specialized ran- dom effects model, and derive a convex relax- ation
+  leads to a simple convex formulation, it suffers from several issues due to the
+  looseness of the relaxation. To remedy this problem, we view jointly sparse multi-task
+  learning as a specialized random effects model, and derive a convex relaxation
   approach that involves two steps. The first step learns the covariance matrix of
-  the coef- ficients using a convex formulation which we refer to as sparse covariance
-  coding; the sec- ond step solves a ridge regression problem with a sparse quadratic
-  regularizer based on the co- variance matrix obtained in the first step. It is shown
-  that this approach produces an asymptot- ically optimal quadratic regularizer in
-  the mul- titask learning setting when the number of tasks approaches infinity. Experimental
-  results demon- strate that the convex formulation obtained via the proposed model
-  significantly outperforms group Lasso (and related multi-stage formula- tions).
+  the coefficients using a convex formulation which we refer to as sparse covariance
+  coding; the second step solves a ridge regression problem with a sparse quadratic
+  regularizer based on the covariance matrix obtained in the first step. It is shown
+  that this approach produces an asymptotically optimal quadratic regularizer in
+  the multitask learning setting when the number of tasks approaches infinity. Experimental
+  results demonstrate that the convex formulation obtained via the proposed model
+  significantly outperforms group Lasso (and related multi-stage formulations).
 title: High-dimensional Joint Sparsity Random Effects Model for Multi-task Learning
 year: '2013'
 layout: inproceedings

@@ -1,13 +1,13 @@
 ---
-abstract: Matching pursuit (MP) methods are a prom- ising class of feature construction
-  algorithms for value function approximation. Yet exist- ing MP methods require creating
-  a pool of potential features, mandating expert knowl- edge or enumeration of a large
-  feature pool, both of which hinder scalability. This pa- per introduces batch incremental
-  feature de- pendency discovery (Batch-iFDD) as an MP method that inherits a provable
+abstract: Matching pursuit (MP) methods are a promising class of feature construction
+  algorithms for value function approximation. Yet existing MP methods require creating
+  a pool of potential features, mandating expert knowledge or enumeration of a large
+  feature pool, both of which hinder scalability. This paper introduces batch incremental
+  feature dependency discovery (Batch-iFDD) as an MP method that inherits a provable
   convergence property. Additionally, Batch-iFDD does not require a large pool of
-  features, leading to lower computational complexity. Empiri- cal policy evaluation
-  results across three do- mains with up to one million states highlight the scalability
-  of Batch-iFDD over the previ- ous state of the art MP algorithm.
+  features, leading to lower computational complexity. Empirical policy evaluation
+  results across three domains with up to one million states highlight the scalability
+  of Batch-iFDD over the previous state of the art MP algorithm.
 title: Batch-iFDD for Representation Expansion in Large MDPs
 year: '2013'
 layout: inproceedings

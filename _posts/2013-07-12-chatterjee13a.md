@@ -1,11 +1,10 @@
 ---
 abstract: 'We consider partially observable Markov decision processes (POMDPs) with
-  limit- average payoff, where a reward value in the interval [0, 1] is associated
-  to every transi- tion, and the payoffof an infinite path is the long-run average
-  of the rewards. We con- sider two types of path constraints: (i) quan- titative
-  constraint defines the set of paths where the payoffis at least a given thresh-
-  old $\lambda$1 $\in$(0, 1]; and (ii) qualitative constraint which is a special case
-  of quantitative con- straint with $\lambda$1 = 1. We consider the compu- tation
+  limitaverage payoff, where a reward value in the interval [0, 1] is associated
+  to every transition, and the payoffof an infinite path is the long-run average
+  of the rewards. We consider two types of path constraints: (i) quantitative
+  constraint defines the set of paths where the payoffis at least a given threshold $\lambda$1 $\in$(0, 1]; and (ii) qualitative constraint which is a special case
+  of quantitative constraint with $\lambda$1 = 1. We consider the computation
   of the almost-sure winning set, where the controller needs to ensure that the path
   constraint is satisfied with probability 1. Our main results for qualitative path
   constraint are as follows: (i) the problem of deciding the existence of a finite-memory

@@ -1,11 +1,11 @@
 ---
 abstract: Boosting is known to be sensitive to label noise. We studied two approaches
-  to improve AdaBoost’s robustness against labelling er- rors. One is to employ a
+  to improve AdaBoost’s robustness against labelling errors. One is to employ a
   label-noise robust classifier as a base learner, while the other is to modify the
   AdaBoost algorithm to be more robust. Empirical evaluation shows that a committee
-  of robust classifiers, al- though converges faster than non label-noise aware AdaBoost,
-  is still susceptible to label noise. However, pairing it with the new ro- bust Boosting
-  algorithm we propose here re- sults in a more resilient algorithm under mis- labelling.
+  of robust classifiers, although converges faster than non label-noise aware AdaBoost,
+  is still susceptible to label noise. However, pairing it with the new robust Boosting
+  algorithm we propose here results in a more resilient algorithm under mislabelling.
 title: Boosting in the presence of label noise
 year: '2013'
 layout: inproceedings
