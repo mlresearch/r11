@@ -1,17 +1,17 @@
 ---
 abstract: We propose a probabilistic model to infer supervised latent variables in
-  the Hamming space from observed data. Our model al- lows simultaneous inference
+  the Hamming space from observed data. Our model allows simultaneous inference
   of the number of binary latent variables, and their values. The latent variables
   preserve neighbourhood structure of the data in a sense that objects in the same
-  semantic concept have similar latent values, and objects in different con- cepts
-  have dissimilar latent values. We for- mulate the supervised infinite latent variable
+  semantic concept have similar latent values, and objects in different concepts
+  have dissimilar latent values. We formulate the supervised infinite latent variable
   problem based on an intuitive principle of pulling objects together if they are
   of the same type, and pushing them apart if they are not. We then combine this principle
   with a flexible Indian Buffet Process prior on the latent variables. We show that
   the inferred supervised latent variables can be directly used to perform a nearest
   neighbour search for the purpose of retrieval. We introduce a new application of
-  dynamically extending hash codes, and show how to effectively cou- ple the structure
-  of the hash codes with con- tinuously growing structure of the neighbour- hood preserving
+  dynamically extending hash codes, and show how to effectively couple the structure
+  of the hash codes with continuously growing structure of the neighbourhood preserving
   infinite latent feature space.
 title: 'The Supervised IBP: Neighbourhood Preserving Infinite Latent Feature Models'
 year: '2013'

@@ -1,8 +1,8 @@
 ---
-abstract: We introduce a type of Deep Boltzmann Ma- chine (DBM) that is suitable for
+abstract: We introduce a type of Deep Boltzmann Machine (DBM) that is suitable for
   extracting distributed semantic representations from a large unstructured collection
-  of documents. We overcome the apparent difficulty of train- ing a DBM with judicious
-  parameter tying. This enables an efficient pretraining algo- rithm and a state initialization
+  of documents. We overcome the apparent difficulty of training a DBM with judicious
+  parameter tying. This enables an efficient pretraining algorithm and a state initialization
   scheme for fast inference. The model can be trained just as efficiently as a standard
   Restricted Boltzmann Machine. Our experiments show that the model assigns better
   log probability to unseen data than the Replicated Softmax model. Features extracted

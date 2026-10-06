@@ -1,13 +1,12 @@
 ---
 abstract: We introduce a graphical framework for multiple instance learning (MIL)
   based on Markov networks. This framework can be used to model the traditional MIL
-  definition as well as more general MIL definitions. Dif- ferent levels of ambiguity
+  definition as well as more general MIL definitions. Different levels of ambiguity
   – the portion of positive instances in a bag – can be explored in weakly supervised
-  data. To train these models, we propose a discriminative max- margin learning algorithm
+  data. To train these models, we propose a discriminative maxmargin learning algorithm
   leveraging efficient inference for cardinality-based cliques. The efficacy of the
-  proposed framework is evalu- ated on a variety of data sets. Experimental results
-  verify that encoding or learning the degree of ambiguity can improve classifica-
-  tion performance.
+  proposed framework is evaluated on a variety of data sets. Experimental results
+  verify that encoding or learning the degree of ambiguity can improve classification performance.
 title: Multiple Instance Learning by Discriminative Training of Markov Networks
 year: '2013'
 layout: inproceedings
